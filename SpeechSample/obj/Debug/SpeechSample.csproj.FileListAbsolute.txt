@@ -1,0 +1,25 @@
+C:\Projects\WPF\SpeechSample\SpeechSample\bin\Debug\SpeechSample.exe
+C:\Projects\WPF\SpeechSample\SpeechSample\bin\Debug\SpeechSample.pdb
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\Window1.baml
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\Window1.g.cs
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\App.g.cs
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample_MarkupCompile.cache
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample.g.resources
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample.Properties.Resources.resources
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample.csproj.GenerateResource.Cache
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample.exe
+C:\Projects\WPF\SpeechSample\SpeechSample\obj\Debug\SpeechSample.pdb
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\SpeechSample.exe
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\SpeechSample.pdb
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\bin\Debug\SpeechSample.exe
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\bin\Debug\SpeechSample.pdb
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\Window1.baml
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\Window1.g.cs
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\App.g.cs
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\SpeechSample_MarkupCompile.cache
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\SpeechSample.g.resources
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\SpeechSample.Properties.Resources.resources
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\ResGen.read.1.tlog
+C:\Books\Book WPF\Chapter 16 Speech\SpeechSample\SpeechSample\obj\Debug\ResGen.write.1.tlog

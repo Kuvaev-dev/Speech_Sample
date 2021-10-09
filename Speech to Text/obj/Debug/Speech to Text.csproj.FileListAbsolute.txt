@@ -1,0 +1,13 @@
+D:\Speech to Text\Speech to Text\bin\Debug\Speech to Text.exe
+D:\Speech to Text\Speech to Text\bin\Debug\Speech to Text.pdb
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.csprojAssemblyReference.cache
+D:\Speech to Text\Speech to Text\obj\Debug\MainWindow.baml
+D:\Speech to Text\Speech to Text\obj\Debug\MainWindow.g.cs
+D:\Speech to Text\Speech to Text\obj\Debug\App.g.cs
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text_MarkupCompile.cache
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.g.resources
+D:\Speech to Text\Speech to Text\obj\Debug\Speech_to_Text.Properties.Resources.resources
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.csproj.GenerateResource.cache
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.csproj.CoreCompileInputs.cache
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.exe
+D:\Speech to Text\Speech to Text\obj\Debug\Speech to Text.pdb
