@@ -119,25 +119,23 @@ namespace SpeechSample
             builder.AppendTextWithHint("Hello! This is WPF. How may I help you?"
                                             , SayAs.Telephone);
             builder.AppendTextWithHint("A B C D E F G", SayAs.SpellOut);
-            // Take a 5 sec break. 
+
             builder.AppendText("Let's take a quick break.");
             builder.AppendBreak(new TimeSpan(0, 0, 5));
             builder.AppendText("We are back. Now we are joined with Sam.");
             builder.AppendBreak(new TimeSpan(0, 0, 2));
             builder.AppendText("Sam. How are you? ");
 
-            // Add Sam's voice
             builder.StartVoice("Microsoft Sam");
             builder.AppendText("I am fine Mary. Thank you");
             builder.EndVoice();
 
             builder.AppendText("Can we speed it up?");
-            // Change Speed
+ 
             builder.StartStyle(new PromptStyle(PromptRate.ExtraSlow));
             builder.AppendText("This is slow reading.");
             builder.EndStyle();
 
-            // Back to normal
             builder.AppendText("We are done");
 
             return builder;
