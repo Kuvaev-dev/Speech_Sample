@@ -81,12 +81,11 @@ namespace SpeechRecognitionSample
         private Grammar CreateGrammarDocument()
         {
             GrammarBuilder gBuilder = new GrammarBuilder();
-            // Construct GrammarBuilder here
             gBuilder.Append(new Choices("Phone", "Email", "Text"));
             gBuilder.Append("my");
             gBuilder.Append(new Choices("Mom", "Dad", "Brother", "Sister"));
 
-            // Create a Grammar from a GrammarBuilder
+            // Создание грамматики из GrammarBuilder
             Grammar speechGrammar = new Grammar(gBuilder);
             return speechGrammar;
         }
@@ -98,16 +97,12 @@ namespace SpeechRecognitionSample
 
         private SrgsDocument BuildDynamicSRGSDocument()
         {
-            // Create SrgsDocument
             SrgsDocument document = new SrgsDocument();
-
-            // Create Root Rule
             SrgsRule rootRule = new SrgsRule("MonthsandDays");
             rootRule.Scope = SrgsRuleScope.Public;
 
             rootRule.Elements.Add(new SrgsItem("Months and Days Grammar "));
 
-            // Create months
             SrgsOneOf oneOfMonths = new SrgsOneOf(
                 new SrgsItem("January"),
                 new SrgsItem("February"),
@@ -127,7 +122,6 @@ namespace SpeechRecognitionSample
             SrgsItem year = new SrgsItem("year");
             SrgsItem ruleMonthsItem = new SrgsItem(new SrgsRuleRef(ruleMonths), of, year);
 
-            // Create Days
             SrgsOneOf oneOfDays = new SrgsOneOf(
                 new SrgsItem("Monday"),
                 new SrgsItem("Tuesday"),
@@ -141,14 +135,13 @@ namespace SpeechRecognitionSample
             SrgsItem week = new SrgsItem("week");
             SrgsItem ruleDaysItem = new SrgsItem(new SrgsRuleRef(ruleDays), of, week);
 
-            // Add items to root Rule
             rootRule.Elements.Add(ruleMonthsItem);
             rootRule.Elements.Add(ruleDaysItem);
 
 
-            // Add all Rules to Document
+            // Добавить все правила в документ
             document.Rules.Add(rootRule, ruleMonths, ruleDays);
-          // Add some extra sperate Rules
+            // Дополнительные правила
             SrgsText textItem = new SrgsText("Start of the Document.");
             SrgsRule textRule = new SrgsRule("TextItem");
             textRule.Elements.Add(textItem);
@@ -164,10 +157,10 @@ namespace SpeechRecognitionSample
             elementRule.Elements.Add(elementItem);
             document.Rules.Add(elementRule);
 
-            // Set Document Root
+            // Установить корень документа
             document.Root = rootRule;
 
-            // Save Created SRGS Document to XML file
+            // Сохранить созданный документ SRGS в файл XML
             XmlWriter writer = XmlWriter.Create("DynamicSRGSDocument.Xml");
             document.WriteSrgs(writer);
             writer.Close();
