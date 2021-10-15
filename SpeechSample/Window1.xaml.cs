@@ -54,6 +54,8 @@ namespace SpeechSample
                 (talking = new Thread(() =>
                 talker.Speak(ConvertRichTextBoxContentsToString())
                 )).Start();
+                if (talking != null && talking.IsAlive)
+                    talking.Abort();
             }
             else
             {
